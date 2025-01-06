@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academia de Lutas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Menu de Navegação -->
+    <nav class="navbar">
+        <ul class="nav-links">
+            <li><a href="#benefits">Benefícios</a></li>
+            <li><a href="#plans">Planos</a></li>
+            <li><a href="#contact1">Contato</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section com imagem de fundo -->
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Transforme seu Corpo e sua Mente</h1>
+            <p>Descubra o poder das artes marciais com treinos personalizados para todos os níveis.</p>
+            <a href="#contact" id="cta-inscreva" class="cta-button1">Inscreva-se Agora</a>
+        </div>
+    </header>
+
+    <!-- Benefícios -->
+    <section id="benefits" class="section">
+        <h2>Benefícios de Treinar Conosco</h2>
+        <div class="benefits-grid">
+            <div class="benefit">
+                <img src="https://static.significados.com.br/foto/taekwondo-arte-marcial.jpg" alt="Força e condicionamento">
+                <h3>Força e Condicionamento</h3>
+                <p>Melhore sua resistência e desempenho físico com treinos intensos.</p>
+            </div>
+            <div class="benefit">
+                <img src="https://www.cartacapital.com.br/wp-content/uploads/2019/06/edfisica.maior_.jpg" alt="Disciplina e foco">
+                <h3>Disciplina e Foco</h3>
+                <p>Desenvolva autocontrole e foco mental através das artes marciais.</p>
+            </div>
+            <div class="benefit">
+                <img src="https://hypescience.com/wp-content/uploads/2013/09/129.jpg" alt="Autodefesa">
+                <h3>Autodefesa</h3>
+                <p>Aprenda técnicas eficazes para proteger a si mesmo e aos outros.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Planos -->
+    <section id="plans" class="section">
+        <h2>Planos e Preços</h2>
+        <div class="plans-grid">
+            <div class="plan">
+                <h3>Plano Básico</h3>
+                <p>Acesso a 3 aulas por semana</p>
+                <p>R$ 150/mês</p>
+            </div>
+            <div class="plan highlight">
+                <h3>Plano Premium</h3>
+                <p>Acesso ilimitado + Personal Trainer</p>
+                <p>R$ 300/mês</p>
+            </div>
+            <div class="plan">
+                <h3>Plano Avançado</h3>
+                <p>Aulas avançadas e acesso exclusivo</p>
+                <p>R$ 500/mês</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <h2>Inscreva-se para iniciarmos o processo de sua matrícula</h2>
+        <form id="contact-form">
+            <div class="form-group">
+                <input type="text" id="name" placeholder="Seu Nome" required>
+            </div>
+            <div class="form-group">
+                <input type="email" id="email" placeholder="Seu Email" required>
+            </div>
+            <button type="button" id="submitButton" class="cta-button">Enviar</button>
+        </form>
+        <div id="form-response" class="hidden">
+            <h1>Obrigado por se inscrever!</h1>
+            <p>Entraremos em contato em breve para concluir sua matrícula.</p>
+            <button class="close-btn" onclick="closeMessage()"></button>
+        </div>
+    </section>
+
+
+    <!-- Contato Direto -->
+    <section id="contact1" class="section">
+        <h2>Contato</h2>
+        <p><strong>Telefone:</strong> 11 4444-9999</p>
+        <p><strong>Whatsapp:</strong> 11 98888-7777</p>
+        <p><strong>E-mail:</strong> academiade_lutas@gmail.com</p>
+        <p><strong>Endereço:</strong> Rua das Artes Marciais, 123 - Centro, São Paulo - SP</p>
+    </section>
+
+    <!-- Rodapé -->
+    <footer class="footer">
+        <p>&copy; 2025 Academia de Lutas. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
